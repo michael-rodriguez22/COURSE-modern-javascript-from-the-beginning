@@ -2,11 +2,11 @@
 
 Collection of project files, reflections, and reviews for Brad Traversy's course "Modern Javascript from the Beginning."
 
+<a href="https://michael-rodriguez22.github.io/course-modern-javascript-from-the-beginning/">site</a>
+
 ## DOM Projects
 
 ## OOP Book List
-
-<a href="./BOOKLIST/index.html">page</a>
 
 ## API Projects
 
