@@ -1,19 +1,11 @@
 # Course - Modern Javascript From The Beginning
 
-Collection of project files, reflections, and reviews for Brad Traversy's course "Modern Javascript from the Beginning."
+## DOM Mini Projects
 
-<a href="https://michael-rodriguez22.github.io/course-modern-javascript-from-the-beginning/">site</a>
+### Task List
 
-## DOM Projects
+An app that allows users to create, delete, and filter tasks. It is a single html page styled using the Materialize and Font Awesome CDNs.
 
-## OOP Book List
+On page load, tasks are fetched from local storage (if there are any) and rendered as list items containing the task text and a delete icon. Tasks can be deleted individually or all at once. These changes are reflected in local storage.
 
-## API Projects
-
-## Tracalorie
-
-## Microposts
-
-## Reflections & Review
-
----
+An event listener on the filter input field uses the String.indexOf() method to check if the given value is a substring in any of the current tasks. Tasks are then displayed / hidden appropriately.
