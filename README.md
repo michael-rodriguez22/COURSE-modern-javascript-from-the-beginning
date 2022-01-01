@@ -1,5 +1,29 @@
 # Course - Modern Javascript From The Beginning
 
+## Language Fundamentals, DOM Manipulation, and Events
+
+The first set of lectures are an introduction to fundamental aspects of the Javascript language. Topics discussed include
+
+- primitive data types
+- type coercion
+- String and Number prototype properties and methods & the Math object
+- reference data types such as Arrays, Dates, and other objects
+- template literals and object literals
+- javascript operators (arithmetic, comparison, assignment, type, logical)
+- function declarations and expressions
+- for and while loops, if else blocks
+- variable scoping (local, global, block level)
+
+Focus then shifts to Javascript's role in the browser specifically. Topics discussed include:
+
+- introduction to the DOM
+- DOM selectors, and traversal
+- creating, removing, and replacing DOM elements
+- common event listeners (click, submit, keypress, DOMContentloaded, etc)
+- event bubbling and delegation, callback functions
+- the window object and notable properties and methods
+- local and session storage
+
 ## DOM Mini Projects
 
 ### Task List
