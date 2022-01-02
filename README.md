@@ -4,6 +4,7 @@
 
 The first set of lectures are an introduction to fundamental aspects of the Javascript language. Topics discussed include
 
+```
 - primitive data types
 - type coercion
 - String and Number prototype properties and methods & the Math object
@@ -13,9 +14,11 @@ The first set of lectures are an introduction to fundamental aspects of the Java
 - function declarations and expressions
 - for and while loops, if else blocks
 - variable scoping (local, global, block level)
+```
 
-Focus then shifts to Javascript's role in the browser specifically. Topics discussed include:
+Focus then shifts to how Javascript is used in the context of front end web development. Topics discussed include:
 
+```
 - introduction to the DOM
 - DOM selectors, and traversal
 - creating, removing, and replacing DOM elements
@@ -23,13 +26,28 @@ Focus then shifts to Javascript's role in the browser specifically. Topics discu
 - event bubbling and delegation, callback functions
 - the window object and notable properties and methods
 - local and session storage
+```
 
 ## DOM Mini Projects
 
 ### Task List
 
+```
 An app that allows users to create, delete, and filter tasks. It is a single html page styled using the Materialize and Font Awesome CDNs.
 
 On page load, tasks are fetched from local storage (if there are any) and rendered as list items containing the task text and a delete icon. Tasks can be deleted individually or all at once. These changes are reflected in local storage.
 
 An event listener on the filter input field uses the String.indexOf() method to check if the given value is a substring in any of the current tasks. Tasks are then displayed / hidden appropriately.
+```
+
+### Loan Calculator
+
+```
+This app lets users provide a loan amount, fixed interest rate, and number of years to repay. It then calculates the amount of each monthly payment, total payment of the loan, and total amount of interest.
+
+The page was styled with Bootstrap 4.
+
+When the form is submitted, a loader spinning logo is briefly displayed ot the page then hidden. Loan results are calculated from the input values.
+
+If inputs were invalid and accurate results could not be determined, an error message is briefly displayed to the page then hidden. If results were successfully calculated, the results section is then populated and displayed to the DOM.
+```
