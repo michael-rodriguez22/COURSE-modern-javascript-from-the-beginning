@@ -32,22 +32,21 @@ Focus then shifts to how Javascript is used in the context of front end web deve
 
 ### Task List
 
-```
-An app that allows users to create, delete, and filter tasks. It is a single html page styled using the Materialize and Font Awesome CDNs.
 
-On page load, tasks are fetched from local storage (if there are any) and rendered as list items containing the task text and a delete icon. Tasks can be deleted individually or all at once. These changes are reflected in local storage.
+- An app that allows users to create, delete, and filter tasks. It is a single html page styled using the Materialize and Font Awesome CDNs.
 
-An event listener on the filter input field uses the String.indexOf() method to check if the given value is a substring in any of the current tasks. Tasks are then displayed / hidden appropriately.
-```
+- On page load, tasks are fetched from local storage (if there are any) and rendered as list items containing the task text and a delete icon. Tasks can be deleted individually or all at once. These changes are reflected in local storage.
+
+- An event listener on the filter input field uses the String.indexOf() method to check if the given value is a substring in any of the current tasks. Tasks are then displayed / hidden appropriately.
+
 
 ### Loan Calculator
 
-```
-This app lets users provide a loan amount, fixed interest rate, and number of years to repay. It then calculates the amount of each monthly payment, total payment of the loan, and total amount of interest.
+- This app lets users provide a loan amount, fixed interest rate, and number of years to repay. It then calculates the amount of each monthly payment, total payment of the loan, and total amount of interest.
 
-The page was styled with Bootstrap 4.
+- The page was styled with Bootstrap 4.
 
-When the form is submitted, a loader spinning logo is briefly displayed ot the page then hidden. Loan results are calculated from the input values.
+- When the form is submitted, a loader spinning logo is briefly displayed ot the page then hidden. Loan results are calculated from the input values.
 
-If inputs were invalid and accurate results could not be determined, an error message is briefly displayed to the page then hidden. If results were successfully calculated, the results section is then populated and displayed to the DOM.
-```
+- If inputs were invalid and accurate results could not be determined, an error message is briefly displayed to the page then hidden. If results were successfully calculated, the results section is then populated and displayed to the DOM.
+
