@@ -32,13 +32,11 @@ Focus then shifts to how Javascript is used in the context of front end web deve
 
 ### Task List
 
-
 - An app that allows users to create, delete, and filter tasks. It is a single html page styled using the Materialize and Font Awesome CDNs.
 
 - On page load, tasks are fetched from local storage (if there are any) and rendered as list items containing the task text and a delete icon. Tasks can be deleted individually or all at once. These changes are reflected in local storage.
 
 - An event listener on the filter input field uses the String.indexOf() method to check if the given value is a substring in any of the current tasks. Tasks are then displayed / hidden appropriately.
-
 
 ### Loan Calculator
 
@@ -50,3 +48,8 @@ Focus then shifts to how Javascript is used in the context of front end web deve
 
 - If inputs were invalid and accurate results could not be determined, an error message is briefly displayed to the page then hidden. If results were successfully calculated, the results section is then populated and displayed to the DOM.
 
+### Number Guesser
+
+- This page is the first project styled with Skeleton CSS, a really cool light-weight utility based CSS framework.
+
+- Users are able to guess a number between 1 and 10 up to 3 times. If an invalid number is provided, an error alert is displayed. Otherwise an alert with the guesses remaining / winning message / losing message is displayed.
