@@ -1,8 +1,8 @@
-# Course - Modern Javascript From The Beginning
+# Course - Modern JavaScript From The Beginning
 
 ## Language Fundamentals, DOM Manipulation, and Events
 
-The first set of lectures are an introduction to fundamental aspects of the Javascript language. Topics discussed include
+The first set of lectures are an introduction to fundamental aspects of the JavaScript language. Topics discussed include
 
 ```
 - primitive data types
@@ -16,7 +16,7 @@ The first set of lectures are an introduction to fundamental aspects of the Java
 - variable scoping (local, global, block level)
 ```
 
-Focus then shifts to how Javascript is used in the context of front end web development. Topics discussed include:
+Focus then shifts to how JavaScript is used in the context of front end web development. Topics discussed include:
 
 ```
 - introduction to the DOM
@@ -50,6 +50,25 @@ Focus then shifts to how Javascript is used in the context of front end web deve
 
 ### Number Guesser
 
-- This page is the first project styled with Skeleton CSS, a really cool light-weight utility based CSS framework.
+- This mini project is the first page styled with Skeleton CSS, a really cool light-weight utility based CSS framework.
 
 - Users are able to guess a number between 1 and 10 up to 3 times. If an invalid number is provided, an error alert is displayed. Otherwise an alert with the guesses remaining / winning message / losing message is displayed.
+
+## Object Oriented JavaScript
+
+Topics discussed in this section include
+
+```
+- Built in / custom constructor functions and the 'this' keyword
+- Object Prototypes
+- Prototypal inheritance
+- ES2015 classes and subclasses
+```
+
+## Book List Project
+
+This app lets users create, read, update, and delete books from a book list. The page is styled with skeleton CSS.
+
+There is a Book constructor function for instantiating each individual book. There are also UI and Store constructor functions used to instantiate UI and Store objects that handle DOM manipulation and local storage respectively.
+
+One version of the application script uses ES5 constructor functions and then assigns methods to the object prototypes. The other version of the application script accomplishes the same task using ES2015 classes. The class syntax slightly cuts down on lines of code and improves readability.
