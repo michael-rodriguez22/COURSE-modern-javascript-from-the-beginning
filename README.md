@@ -72,3 +72,25 @@ This app lets users create, read, update, and delete books from a book list. The
 There is a Book constructor function for instantiating each individual book. There are also UI and Store constructor functions used to instantiate UI and Store objects that handle DOM manipulation and local storage respectively.
 
 One version of the application script uses ES5 constructor functions and then assigns methods to the object prototypes. The other version of the application script accomplishes the same task using ES2015 classes. The class syntax slightly cuts down on lines of code and improves readability.
+
+## Asynchronous JavaScript, Fetch API
+
+### Chuck Norris Joke Generator
+
+## API Projects
+
+### GitHub Finder
+
+### Weather JS
+
+## Error Handling, Regular Expressions
+
+### Form Validator Project
+
+## Newer Features - ES2015+, Javascript Patterns
+
+### Profile Scroller Iterator Mini Project
+
+## Tracalorie Project (Module Pattern)
+
+## Microposts Project (WebPack and Babel)
