@@ -1,0 +1,94 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light: #ececec;
+  --dark: #282828;
+  --primary: #fce138;
+  --secondary: #024e76;
+  --accent: #39a6b2;
+  color: var(--dark);
+  font-family: "Ubuntu Mono", monospace;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: var(--light);
+  color: var(--dark);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  FONT SIZES */
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 2rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+p,
+.p {
+  font-size: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* Tablets */
+@media screen and (min-width: 481px) {
+}
+
+/* Medium Screens */
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 110%;
+  }
+
+  /* NAV */
+  #overlay-open,
+  #overlay-close {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 auto;
+    padding-top: 0;
+    width: 60%;
+  }
+}
+/* Large Screens */
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 120%;
+  }
+}
